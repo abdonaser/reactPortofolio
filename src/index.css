@@ -38,6 +38,10 @@ header,
   padding-top: 50px;
 }
 
+.not-found {
+  height: 58vh;
+}
+
 .home {
   margin-top: 50px;
 }
