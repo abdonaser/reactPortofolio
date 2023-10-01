@@ -12,7 +12,7 @@ import Nav from './Components/NavBar/Nav'
 const router = createBrowserRouter([
   {
     path: "/", element: <Layout />, children: [
-      { path: "/", element: <Home /> },
+      { path: "", element: <Home /> },
       { path: "home", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "portofolio", element: <Portofolio /> },
